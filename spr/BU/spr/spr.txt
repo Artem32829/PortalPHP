@@ -1,0 +1,28 @@
+sprroot
+DSHFG54srv
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-22-04
+*https://winitpro.ru/index.php/2020/04/14/itsm-glpi-inventory/
+
+*
+sudo mysql
+ALTER USER '$$$$' IDENTIFIED WITH mysql_native_password by '$$$$$';
+exit
+mysql_secure_installation
+
+* 
+mcedit /etc/apache2/sites-available/spr.conf (поменять bns.local)
+
+*
+ echo "<a href='http://$$$$/ в  stat.php
+ 
+ 
+ 
+CREATE USER '$$$' IDENTIFIED BY '$$$$';
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO 'dbuser'@'$$$$' WITH GRANT OPTION;
+
+sudo ufw allow from $$$$ to any port 3306
+
+
+CREATE USER '$$$$' IDENTIFIED BY 'DSHFG54srv';
+GRANT CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, SELECT, REFERENCES, RELOAD on *.* TO '$$$$'@'$$$' WITH GRANT OPTION;
+
